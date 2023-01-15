@@ -5,6 +5,7 @@ int main()
 {  
     char output;  
     float r = 0, v = 0, c = 0;
+    // r = resistance, v = voltage, c = current
     int r1 = 0, c1 = 0;
     float res;
     printf (" Choose an operator(resistance, voltage, current) to perform the operation in ohm's law calculator\n ");  
