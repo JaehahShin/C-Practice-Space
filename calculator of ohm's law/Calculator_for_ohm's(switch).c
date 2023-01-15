@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 int main()  
-{   
+{  
     char output;  
     float r = 0, v = 0, c = 0;
+    int r1 = 0, c1 = 0;
     float res;
     printf (" Choose an operator(resistance, voltage, current) to perform the operation in ohm's law calculator\n ");  
     scanf ("%s", &output); // take an operator  
@@ -48,12 +49,13 @@ int main()
       
     case 'v':
     printf (" \n Value of Resistance: ");  
-    scanf(" %d", &r); 
+    scanf(" %d", &r1); 
     printf ("Value of current: ");  
-    scanf (" %d", &c); 
-          res = r * c;
-          printf("Voltage is: %.2fv",res);
+    scanf (" %d", &c1); 
+          res = r1 * c1;
+          printf("Voltage is: %.2fv", res);
             break;
+
   default: 
             printf (" Something went wrong ");               
     }  
@@ -61,3 +63,5 @@ int main()
     
 }  
 
+
+  
