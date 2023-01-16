@@ -3,6 +3,9 @@
 
 int main()  
 {  
+    // input();
+    // calc();
+    // output();
     char output;  
     float r = 0, v = 0, c = 0;
     // r = resistance, v = voltage, c = current
